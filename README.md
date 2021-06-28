@@ -4,6 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Code Example](#code-example)
 * [Status](#status)
 
 ## General info
@@ -13,5 +14,35 @@ You can use encryption to send secret messages, but if you want to be even more 
 * Kotlin - version 1.5.20
 * Gradle - version 7.0.2
 
+## Code Example
+```
+Task (hide, show, exit):
+hide
+Input image file:
+image.png
+Output image file:
+image_with_text.png
+Message to hide:
+Hello World!
+
+Available space: 15000 bytes
+Size of message to hide: 13 bytes
+
+Input Image: image.png
+Output Image: image_with_text.png
+Image image_with_text.png is saved.
+
+Task (hide, show, exit):
+show
+Image file:
+image_with_text.png
+Message:
+Hello World!
+
+Task (hide, show, exit):
+exit
+Bye!
+```
+
 ## Status
-Project is: _in progress_
+Project is: _finished_
